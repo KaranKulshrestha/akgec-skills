@@ -1,0 +1,60 @@
+.akgec__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem, 6rem;
+}
+
+.akgec__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.akgec__navbar-links_logo {
+    margin: 2rem;
+}
+
+.akgec__navbar-links_container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.akgec__navbar-contact{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.akgec__navbar-links_container p,
+.akgec__navbar-menu_container p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.akgec__navbar-contact button,
+.akgec__navbar-menu_container button {
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    left: 1153px;
+    top: 37px;
+    color: #fff;
+    background: #FF4820;
+    line-height: 25px;
+    cursor: pointer;
+    text-align: center;
+    border: #FF4820;
+    border-radius: 5px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+}
