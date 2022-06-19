@@ -1,0 +1,33 @@
+.akgec__features-container__feature-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.akgec__features-container__feature {
+    display: flex;
+    flex-direction: row;
+    margin-right: 3rem;
+    flex: 1;
+}
+
+.akgec__features-container__feature-title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    color: #fff;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.akgec__features-container_feature-text {
+    color: #81AFDD;
+    font-family: var(--font-family);
+    font-weight: 300;
+    line-height: 25px;
+    font-style: normal;
+    font-size: 16px;
+    margin-top: 1rem;
+}
