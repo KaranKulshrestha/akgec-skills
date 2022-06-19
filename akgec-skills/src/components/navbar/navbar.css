@@ -10,8 +10,6 @@
     flex: 1;
     display: flex;
     justify-content: flex-start;
-    width: 100%;
-    overflow-x: hidden;
     align-items: center;
 }
 
@@ -27,6 +25,8 @@
 .akgec__navbar-contact{
     display: flex;
     justify-content: flex-end;
+    margin-right: 3rem;
+    align-items: center;
 
 }
 
@@ -44,22 +44,17 @@
 
 .akgec__navbar-contact button,
 .akgec__navbar-menu_container button {
-    position: absolute;
-    width: 120px;
-    height: 30px;
-    left: 1153px;
-    top: 37px;
+    padding: 0.5rem 1rem;
     color: #fff;
     background: #FF4820;
-    line-height: 25px;
-    cursor: pointer;
-    text-align: center;
-    border: none;
-    border-radius: 5px;
     font-family: var(--font-family);
     font-weight: 500;
-    outline: none;
     font-size: 18px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 .akgec__navbar-menu {
@@ -93,7 +88,7 @@
 }
 
 .akgec__navbar-menu__container, p {
-    margin-top: 1rem;
+    margin-top: 1rem 0;
     white-space: nowrap;
 }
 
@@ -107,22 +102,6 @@
     }
     .akgec__navbar-menu {
         display: flex;
-    }
-    .akgec__navbar-menu_container-links-contact {
-        margin-top: 1rem;
-        margin-right: ;
-    }
-    .akgec__navbar-menu_container-links-contact, button{
-        display: block;
-        background-color: #FF4820;
-        font-weight: 500;
-        font-family: var(--font-family);
-        font-size: 18px;
-        border-style: none;
-        outline: none;
-        padding: 2px 4px;
-        border-radius: 0.2rem;
-        color: #fff;
     }
 }
 
@@ -147,6 +126,10 @@
         padding: 2px 4px;
         border-radius: 0.2rem;
         color: #fff;
+    }
+
+    .akgec__navbar-contact {
+        display: none;
     }
 }
 
