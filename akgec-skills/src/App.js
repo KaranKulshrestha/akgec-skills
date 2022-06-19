@@ -1,10 +1,21 @@
 import React from 'react'
-import {Article, Brand, CTA} from './components';
+import {Navbar, Brand, CTA} from './components';
+import {Blog, Features, Footer, Header, Possibility, WhatAkgecSkills} from "./containers";
 
 const App = () => {
   return (
-    <div>
-        <h1>Akgec Skills</h1>
+    <div className="App">
+      <div className='gradient__bg'>
+        <Navbar />
+        <Header />
+      <Brand />
+      <WhatAkgecSkills />
+      <Features />
+      <Possibility />
+      <CTA />
+      <Blog />
+      <Footer />
+      </div>
     </div>
   )
 }
