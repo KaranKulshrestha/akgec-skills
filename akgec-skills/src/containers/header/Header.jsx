@@ -17,11 +17,11 @@ const Header = () => {
         </h2>
         <div className='akgec__header-content__people'>
           <img src={people}/>
-          <p>More than 600 people successfully completed their training with us.</p>
+          <h2>More than 600 people successfully completed their training with us.</h2>
         </div>
-        <div className='akgec__header-image'>
+      </div>
+      <div className='akgec__header-image'>
           <img src={main}/>
-        </div>
       </div>
     </div>
   )
