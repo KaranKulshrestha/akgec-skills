@@ -17,7 +17,7 @@ const Navbar = () => {
           <p><a href='#home'>Home</a></p>
           <p><a href='#wakgec'>Program</a></p>
           <p><a href='#Instructor'>Instructor</a></p>
-          <p><a href='#technology'>Registration</a></p>
+          <p><a href='#Registration'>Registration</a></p>
         </div>
       </div>
 
@@ -36,8 +36,8 @@ const Navbar = () => {
           <p><a href='#home'>Home</a></p>
           <p><a href='#wakgec'>What is Akgec Skills?</a></p>
           <p><a href='#programs'>Program</a></p>
-          <p><a href='#team'>Team</a></p>
-          <p><a href='#technology'>Registration</a></p>
+          <p><a href='#Instructor'>Instructor</a></p>
+          <p><a href='#Registration'>Registration</a></p>
           </div>
           <div className="akgec__navbar-menu_container-links-contact">
           <button>Contact us</button>
