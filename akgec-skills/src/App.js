@@ -13,8 +13,6 @@ const App = () => {
         <WhatAkgecSkills />
         <Features />
         <Possibility />
-        <CTA />
-        <Blog />
         <Footer />
       </div>
     </div>
